@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/idEdtEmail"
+            android:layout_gravity="center"
+            android:hint="Login"
+            android:layout_marginTop="200dp" />
+
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/idEdtPass"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:layout_marginTop="35dp"/>
+
+    <CheckBox
+            android:text="Remember me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox1"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="57dp"/>
+
+    <Button
+            android:text="Zaloguj"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:id="@+id/idBtnPost"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"/>
+
+    <ProgressBar
+            android:id="@+id/idLoadingPB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+</LinearLayout>
